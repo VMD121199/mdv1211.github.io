@@ -1020,7 +1020,7 @@ padding-bottom: 40px;
   letter-spacing: 1px;
 }
 .blog-text p{
-    font-size: 18px;
+    font-size: 16px;
     opacity: .9;
     font-weight: 400;
     height: 80%;
@@ -1078,7 +1078,7 @@ padding-bottom: 40px;
 .contact-info{
     width: 40%;
     height: 500px;
-    background: url(../images/contact-back.jpg);
+    background: url(../images/contact.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 16px;
@@ -2418,7 +2418,7 @@ for tabs and large phones
       letter-spacing: 1px;
     }
     .blog-text p{
-        font-size: 18px;
+        font-size: 16px;
         opacity: .9;
         font-weight: 400;
         height: 80%;
