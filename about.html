@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Minh Duc VU - AI Engineer" />
     <title>Minh Duc VU - AI Engineer</title>
-    <!--favicon-img-->
-    <link rel="icon" type="image/png" href="images/favicon.png" />
-    <!--favicon-img-->
+    <!--ai-icon-img-->
+    <link rel="icon" type="image/png" href="images/ai-icon.png" />
+    <!--ai-icon-img-->
     <!--main css file should not be removed -->
     <link rel="stylesheet" href="css/index.css" />
     <!--main css file-->
@@ -30,28 +30,38 @@
       <!--Main-Section-->
       <!--Navigator-fullscreen-->
       <div id="navigation-content">
-        <div class="logo">
-          <img src="images/willy wonka logo.png" alt="logo" />
-        </div>
+        <a href="index.html">
+          <div class="logo">
+            <img src="images/logo.png" alt="logo" />
+          </div>
+        </a>
         <div class="navigation-close">
           <span class="close-first"></span>
           <span class="close-second"></span>
         </div>
         <div class="navigation-links">
-          <a href="#" data-text="HOME" id="home-link">HOME</a>
-          <a href="#" data-text="ABOUT" id="about-link">ABOUT</a>
-          <a href="#" data-text="EXPERIENCE" id="experience-link"
+          <a href="index.html" data-text="HOME" id="home-link">HOME</a>
+          <a href="about.html" data-text="ABOUT" id="about-link">ABOUT</a>
+          <a href="experience.html" data-text="EXPERIENCE" id="experience-link"
             >EXPERIENCE</a
           >
-          <a href="#" data-text="PROJECT" id="project-link">PROJECT</a>
-          <a href="#" data-text="CONTACT" id="contact-link">CONTACT</a>
+          <a href="projects.html" data-text="PROJECTS" id="project-link"
+            >PROJECTS</a
+          >
+          <a href="contact.html" data-text="CONTACT" id="contact-link"
+            >CONTACT</a
+          >
         </div>
       </div>
       <!--Navigator-Fullscreen END-->
       <!--Home Page-->
       <!--Menubar-->
       <div id="navigation-bar">
-        <img src="images/willy wonka logo.png" alt="logo" />
+        <a href="index.html">
+          <div class="logo">
+            <img src="images/logo.png" alt="logo" />
+          </div>
+        </a>
         <div class="menubar">
           <span class="first-span"></span>
           <span class="second-span"></span>
@@ -59,71 +69,8 @@
         </div>
       </div>
       <!--Menubar End-->
-      <!--Header-->
-      <div id="header">
-        <div id="particles"></div>
-        <!--Social Media Links-->
-        <div class="social-media-links">
-          <a href="https://www.instagram.com/minhduc.vu.1211/"
-            ><img
-              src="images/instagram logo.png"
-              class="social-media"
-              alt="instagram-logo" /></a
-          ><!--Your instagram homepage link inser in place of "#"-->
-          <a href="https://www.facebook.com/minhduc.vu.1211/"
-            ><img
-              src="images/facebook logo.png"
-              class="social-media"
-              alt="facebook-logo"
-          /></a>
-          <a href="https://www.linkedin.com/in/minhducvu1211/"
-            ><img
-              src="images/linkedin logo.png"
-              class="social-media"
-              alt="linkedin-logo"
-          /></a>
-          <!-- <a href="#"><img src="images/twitter logo.png" class="social-media" alt="twitter-logo"></a> -->
-        </div>
-        <!--Social Media Links end-->
-        <div class="header-content">
-          <div class="header-content-box">
-            <div class="firstline"><span class="color">Minh Duc</span>VU</div>
-            <div class="secondline">
-              I'm a
-              <span
-                class="txt-rotate color"
-                data-period="1200"
-                data-rotate='[ " AI Engineer.", " Data Scientist."]'
-              ></span>
-              <span class="slash">|</span>
-            </div>
-            <div class="contact">
-              <a href="Mailto:minhducvu1211.work@gmail"
-                ><img
-                  src="images/mail.png"
-                  alt="email-pic"
-                  class="contactpic" /></a
-              ><!--Your email Id write in place of "#"-->
-              <a href="Tel:(+33)0745635384"
-                ><img
-                  src="images/call.png"
-                  alt="phone-pic"
-                  class="contactpic" /></a
-              ><!--Your telephone number Id write in place of "#"-->
-            </div>
-          </div>
-        </div>
-        <!--header image-->
-        <div class="header-image">
-          <img src="images/man.jpg" alt="logo" />
-        </div>
-        <!--header image end-->
-      </div>
-      <!--Header End-->
-      <!--HomePage End-->
-      <!--Main-Section End-->
       <!--about-->
-      <div id="about">
+      <div id="about" style="display: block">
         <div class="color-changer">
           <div class="color-panel">
             <img src="images/gear.png" alt="" />
@@ -178,7 +125,10 @@
                 embark on a new chapter as an AI Engineer.
               </span>
               <div class="cv">
-                <a href="#"
+                <a
+                  href="https://drive.google.com/file/d/1FeeKE56688f5GFxK14JjltTBhx_Du5HL/view?usp=sharing"
+                  download
+                  target="_blank"
                   ><button>Download <span class="colors">CV</span></button></a
                 >
               </div>
@@ -228,24 +178,24 @@
           <!--services header end-->
           <!--services content-->
           <div class="services-content">
-            <div class="service-one service wow">
+            <div class="service-two service wow">
               <div class="service-img">
-                <img src="images/coding.png" alt="service-one" />
+                <img src="images/data_annotation.png" alt="service-two" />
               </div>
               <div class="service-description">
-                <h2>Web Designing</h2>
+                <h2>Data Annotation</h2>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
                   quibusdam possimus
                 </p>
               </div>
             </div>
-            <div class="service-two service wow">
+            <div class="service-one service wow">
               <div class="service-img">
-                <img src="images/instagram.png" alt="service-two" />
+                <img src="images/deep-learning.png" alt="service-one" />
               </div>
               <div class="service-description">
-                <h2>Social Media</h2>
+                <h2>Model Deployment and Serving</h2>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
                   quibusdam possimus
@@ -254,10 +204,10 @@
             </div>
             <div class="service-three service wow">
               <div class="service-img">
-                <img src="images/bulb.png" alt="service-three" />
+                <img src="images/backend-dev.png" alt="service-three" />
               </div>
               <div class="service-description">
-                <h2>Creative Design</h2>
+                <h2>Backend Development</h2>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
                   quibusdam possimus
@@ -275,7 +225,7 @@
           <div class="skills-content" style="text-align: center">
             <div class="skill-html skill">
               <div class="skill-text">
-                <div class="html">HTML/CSS</div>
+                <div class="html">Python</div>
               </div>
               <div class="html-prog wow prog">
                 <div class="html-progress wow">95%</div>
@@ -291,34 +241,34 @@
             </div>
             <div class="skill-html skill">
               <div class="skill-text">
-                <div class="html">Adobe Ps</div>
+                <div class="html">Problems Solving</div>
               </div>
               <div class="html-prog wow prog">
-                <div class="adobe-progress wow">83%</div>
+                <div class="adobe-progress wow">85%</div>
               </div>
             </div>
             <div class="skill-html skill">
               <div class="skill-text">
-                <div class="html">PHP</div>
+                <div class="html">SQL</div>
               </div>
               <div class="html-prog wow prog">
-                <div class="php-progress wow">87%</div>
+                <div class="adobe-progress wow">80%</div>
               </div>
             </div>
             <div class="skill-html skill">
               <div class="skill-text">
-                <div class="html">JQuery</div>
+                <div class="html">Solidity</div>
               </div>
               <div class="html-prog wow prog">
-                <div class="jquery-progress wow">94%</div>
+                <div class="adobe-progress wow">75%</div>
               </div>
             </div>
             <div class="skill-html skill">
               <div class="skill-text">
-                <div class="html">SEO</div>
+                <div class="html">Java</div>
               </div>
               <div class="html-prog wow prog">
-                <div class="seo-progress wow">84%</div>
+                <div class="adobe-progress wow">70%</div>
               </div>
             </div>
           </div>

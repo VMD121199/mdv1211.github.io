@@ -41,12 +41,12 @@
         </div>
         <div class="navigation-links">
           <a href="index.html" data-text="HOME" id="home-link">HOME</a>
-          <a href="#" data-text="ABOUT" id="about-link">ABOUT</a>
+          <a href="about.html" data-text="ABOUT" id="about-link">ABOUT</a>
           <a href="experience.html" data-text="EXPERIENCE" id="experience-link"
             >EXPERIENCE</a
           >
-          <a href="projects.html" data-text="PROJECT" id="project-link"
-            >PROJECT</a
+          <a href="projects.html" data-text="PROJECTS" id="project-link"
+            >PROJECTS</a
           >
           <a href="contact.html" data-text="CONTACT" id="contact-link"
             >CONTACT</a
@@ -69,9 +69,8 @@
         </div>
       </div>
       <!--Menubar End-->
-
-      <!--contact-->
-      <div id="contact" style="display: block">
+      <!--portfolio-->
+      <div id="portfolio" style="display: block">
         <div class="color-changer">
           <div class="color-panel">
             <img src="images/gear.png" alt="" />
@@ -102,98 +101,58 @@
             </div>
           </div>
         </div>
-        <div class="contact-header">
-          Contact <span class="color"> Me</span>
-          <div class="contact-header-caption">
-            <span class="color"> Get</span> In Touch.
-          </div>
+        <div class="portfolio-header">
+          <span class="color"> My </span> Personal Projects
+          <span class="header-caption">
+            Some Of My <span class="color"> Works</span></span
+          >
         </div>
-        <div class="contact-content">
-          <!--Contact form-->
-          <div class="contact-form">
-            <div class="form-header">Message Me</div>
-            <form id="myForm" action="#">
-              <div class="input-line">
-                <input
-                  id="name"
-                  type="text"
-                  placeholder="Name"
-                  class="input-name"
-                />
-                <input
-                  id="email"
-                  type="email"
-                  placeholder="Email"
-                  class="input-name"
-                />
-              </div>
-              <input
-                type="text"
-                id="subject"
-                placeholder="subject"
-                class="input-subject"
-              />
-              <textarea
-                id="body"
-                class="input-textarea"
-                placeholder="message"
-              ></textarea>
-              <button type="button" id="submit" value="send">Submit</button>
-            </form>
-          </div>
-          <!--Contact form-->
-          <!--Contact information-->
-          <div class="contact-info">
-            <div class="contact-info-header">Contact Info</div>
-            <div class="contact-info-content">
-              <div class="contect-info-content-line">
-                <img
-                  src="./images/icon-name.png"
-                  class="icon"
-                  alt="name-icon"
-                />
-                <div class="contact-info-icon-text">
-                  <h6>Name</h6>
-                  <p>Minh Duc VU</p>
-                </div>
-              </div>
-              <div class="contect-info-content-line">
-                <img
-                  src="./images/icon-location.png"
-                  class="icon"
-                  alt="location-icon"
-                />
-                <div class="contact-info-icon-text">
-                  <h6>Location</h6>
-                  <p>Île-de-France, France</p>
-                </div>
-              </div>
-              <div class="contect-info-content-line">
-                <img
-                  src="./images/icon-phone.png"
-                  class="icon"
-                  alt="phone-icon"
-                />
-                <div class="contact-info-icon-text">
-                  <h6>Call</h6>
-                  <p>+(33) 7 45 63 53 84</p>
-                  <p>+(84) 936 209 275</p>
-                </div>
-              </div>
-
-              <div class="contect-info-content-line">
-                <img
-                  src="./images/icon-email.png"
-                  class="icon"
-                  alt="email-icon"
-                />
-                <div class="contact-info-icon-text">
-                  <h6>Email</h6>
-                  <p>minhducvu1211.work@gmail.com</p>
-                </div>
+        <div id="portfolio-content">
+          <div class="portfolio portfolio-first">
+            <div class="portfolio-image">
+              <img src="images/traffic_sign.jpg" alt="portfolio-first" />
+            </div>
+            <div class="portfolio-text">
+              <h2>Road Sign Detection</h2>
+              <p>
+                Implementation Singleshot Detector architecture to build a
+                model for Object Detection task
+              </p>
+              <div class="button">
+                <a
+                  href="https://github.com/VMD121199/road-sign-detection"
+                  target="”_blank”"
+                  ><button>
+                    <span class="index">
+                      View Project<i class="gg-arrow-right"></i
+                    ></span></button
+                ></a>
               </div>
             </div>
-            <!--Contact information end-->
+          </div>
+          <div class="portfolio portfolio-second">
+            <div class="portfolio-image">
+              <img src="images/portfolio-second.jpg" alt="portfolio-second" />
+            </div>
+            <div class="portfolio-text">
+              <h2>Transportation Classification</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id
+                cumque placeat minima ad laudantium suscipit voluptatem
+                ducimus. Id cumque placeat minima ad laudantium suscipit
+                voluptatem ducimus
+              </p>
+              <div class="button">
+                <a
+                  href="https://github.com/VMD121199/transport_classification"
+                  target="”_blank”"
+                  ><button>
+                    <span class="index">
+                      View Project<i class="gg-arrow-right"></i
+                    ></span></button
+                ></a>
+              </div>
+            </div>
           </div>
         </div>
         <!--copyright-section You Can Remove After Downloading-->
@@ -204,7 +163,7 @@
         </div> -->
         <!--copyright-section-->
       </div>
-      <!--contact end-->
+      <!--portfolio end-->
     </div>
     <!--all the divisions-->
     <script src="js/jquery.min.js"></script>
